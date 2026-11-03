@@ -1,0 +1,101 @@
+/* CSBAMS Design Tokens — Design.md section 3 */
+:root {
+  /* Colour tokens */
+  --color-primary:        #1F6B3B;
+  --color-primary-dark:   #14472A;
+  --color-primary-soft:   #E6F2EA;
+  --color-accent:         #B4690E;
+  --color-danger:         #B3261E;
+  --color-warning:        #8A6100;
+  --color-success:        #1E7A46;
+  --color-info:           #1B5E8A;
+  --color-surface:        #FFFFFF;
+  --color-background:     #F6F7F5;
+  --color-border:         #D9DED7;
+  --color-text:           #1B1F1C;
+  --color-text-muted:     #5A635B;
+
+  /* Status badge colours */
+  --status-available:           #1E7A46;
+  --status-available-bg:        #E8F5ED;
+  --status-low-stock:           #B4690E;
+  --status-low-stock-bg:        #FEF3E2;
+  --status-out-of-stock:        #B3261E;
+  --status-out-of-stock-bg:     #FDECEA;
+  --status-pending:             #8A6100;
+  --status-pending-bg:          #FEF8E7;
+  --status-validated:           #1B5E8A;
+  --status-validated-bg:        #E3EEF7;
+  --status-approved:            #1B5E8A;
+  --status-approved-bg:         #E3EEF7;
+  --status-issued:              #1F6B3B;
+  --status-issued-bg:           #E6F2EA;
+  --status-partially-returned:  #B4690E;
+  --status-partially-returned-bg: #FEF3E2;
+  --status-returned:            #1E7A46;
+  --status-returned-bg:         #E8F5ED;
+  --status-rejected:            #B3261E;
+  --status-rejected-bg:         #FDECEA;
+  --status-good:                #1E7A46;
+  --status-good-bg:             #E8F5ED;
+  --status-average:             #B4690E;
+  --status-average-bg:          #FEF3E2;
+  --status-poor:                #B3261E;
+  --status-poor-bg:             #FDECEA;
+  --status-draft:               #5A635B;
+  --status-draft-bg:            #F0F1EF;
+  --status-under-review:        #1B5E8A;
+  --status-under-review-bg:     #E3EEF7;
+  --status-published:           #1E7A46;
+  --status-published-bg:        #E8F5ED;
+  --status-needs-revision:      #B4690E;
+  --status-needs-revision-bg:   #FEF3E2;
+  --status-open:                #8A6100;
+  --status-open-bg:             #FEF8E7;
+  --status-answered:            #1E7A46;
+  --status-answered-bg:         #E8F5ED;
+  --status-closed:              #5A635B;
+  --status-closed-bg:           #F0F1EF;
+
+  /* Typography */
+  --text-xs:   12px;
+  --text-sm:   14px;
+  --text-base: 16px;
+  --text-lg:   20px;
+  --text-xl:   24px;
+  --text-2xl:  32px;
+
+  --lh-xs:   16px;
+  --lh-sm:   20px;
+  --lh-base: 24px;
+  --lh-lg:   28px;
+  --lh-xl:   32px;
+  --lh-2xl:  40px;
+
+  /* Spacing */
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-6:  24px;
+  --sp-8:  32px;
+  --sp-12: 48px;
+
+  /* Radius */
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px 0 rgba(0,0,0,.08), 0 1px 2px -1px rgba(0,0,0,.06);
+  --shadow-dropdown: 0 4px 12px 0 rgba(0,0,0,.12);
+
+  /* Transitions */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+
+  /* Layout */
+  --sidebar-width: 230px;
+  --content-max:   1100px;
+  --touch-target:  44px;
+}

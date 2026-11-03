@@ -1,0 +1,1 @@
+export function errorMiddleware(err, _req, res, _next) { console.error(err.message); res.status(err.status || 500).json({ success: false, data: null, error: err.code || 'INTERNAL_ERROR', message: err.message || 'Something went wrong' }); }
